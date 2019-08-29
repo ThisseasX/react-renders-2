@@ -1,7 +1,5 @@
 import React from 'react';
-
-const getRandomColor = () =>
-  '#' + ((Math.random() * 0xffffff) << 0).toString(16);
+import { getRandomColor } from '/utils';
 
 class TextView extends React.Component {
   render() {
